@@ -20,6 +20,7 @@ const projects = [
     img: project1,
     imgBig: project1bg,
     gitHubLink: "https://github.com/TBukhaidze/calculator-app",
+    link: "https://tbukhaidze.github.io/calculator-app/",
   },
 
   {
@@ -28,6 +29,7 @@ const projects = [
     img: project2,
     imgBig: project2bg,
     gitHubLink: "https://github.com/TBukhaidze/Weather-app",
+    link: "https://tbukhaidze.github.io/Weather-app/",
   },
 
   {
@@ -36,6 +38,7 @@ const projects = [
     img: project3,
     imgBig: project3bg,
     gitHubLink: "https://github.com/TBukhaidze/marvel-app",
+    link: "https://tbukhaidze.github.io/marvel-app/",
   },
 
   {
@@ -44,6 +47,7 @@ const projects = [
     img: project4,
     imgBig: project4bg,
     gitHubLink: "https://github.com/TBukhaidze/e-store",
+    link: "https://soft-marshmallow-b9127d.netlify.app/",
   },
 
   {
@@ -52,6 +56,7 @@ const projects = [
     img: project06,
     imgBig: project06Big,
     gitHubLink: "https://github.com/TBukhaidze",
+    link: "https://github.com/TBukhaidze",
   },
 ];
 
