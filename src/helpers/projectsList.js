@@ -1,60 +1,49 @@
-import project01 from "../img/projects/01.jpg";
-import project01Big from "../img/projects/01-big.jpg";
-
-import project02 from "../img/projects/02.jpg";
-import project02Big from "../img/projects/02-big.jpg";
-
-import project03 from "../img/projects/03.jpg";
-import project03Big from "../img/projects/03-big.jpg";
-
-import project04 from "../img/projects/04.jpg";
-import project04Big from "../img/projects/04-big.jpg";
-
-import project05 from "../img/projects/05.jpg";
-import project05Big from "../img/projects/05-big.jpg";
-
 import project06 from "../img/projects/06.jpg";
 import project06Big from "../img/projects/06-big.jpg";
 
+import project1 from "../img/projects/project1.jpg";
+import project1bg from "../img/projects/project1bg.jpg";
+
+import project2 from "../img/projects/project2.jpg";
+import project2bg from "../img/projects/project2bg.jpg";
+
+import project3 from "../img/projects/project3.jpg";
+import project3bg from "../img/projects/project3bg.jpg";
+
+import project4 from "../img/projects/project4.jpg";
+import project4bg from "../img/projects/project4bg.jpg";
+
 const projects = [
   {
-    title: "Gaming streaming portal",
-    skills: "React, Node.js, MongoDB",
-    img: project01,
-    imgBig: project01Big,
-    gitHubLink: "https://github.com/TBukhaidze",
+    title: "Calculator App",
+    skills: "HTML, CSS, JS",
+    img: project1,
+    imgBig: project1bg,
+    gitHubLink: "https://github.com/TBukhaidze/calculator-app",
   },
 
   {
-    title: "Video service",
-    skills: "React, PHPm MySql",
-    img: project02,
-    imgBig: project02Big,
-    gitHubLink: "https://github.com/TBukhaidze",
+    title: "Weather App",
+    skills: "HTML,CSS,JS, Weather api",
+    img: project2,
+    imgBig: project2bg,
+    gitHubLink: "https://github.com/TBukhaidze/Weather-app",
   },
 
   {
-    title: "Video Portal",
-    skills: "Vue JS, Node.js, MongoDB",
-    img: project03,
-    imgBig: project03Big,
-    gitHubLink: "https://github.com/TBukhaidze",
+    title: "Marvel Comics",
+    skills: "React, Redux, Marvel Api",
+    img: project3,
+    imgBig: project3bg,
+    gitHubLink: "https://github.com/TBukhaidze/marvel-app",
   },
 
   {
-    title: "Dating App",
-    skills: "React Native",
-    img: project04,
-    imgBig: project04Big,
-    gitHubLink: "https://github.com/TBukhaidze",
-  },
-
-  {
-    title: "Gaming streaming portal",
-    skills: "React, Node.js, MongoDB",
-    img: project05,
-    imgBig: project05Big,
-    gitHubLink: "https://github.com/TBukhaidze",
+    title: "E-Store",
+    skills: "React, Redux-Toolkit, Axios",
+    img: project4,
+    imgBig: project4bg,
+    gitHubLink: "https://github.com/TBukhaidze/e-store",
   },
 
   {

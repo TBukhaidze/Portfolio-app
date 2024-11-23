@@ -335,6 +335,8 @@ body {
 
 .project__img {
   border-radius: 10px;
+  height: 231px;
+  width: 370px;
 }
 
 .project__title {
