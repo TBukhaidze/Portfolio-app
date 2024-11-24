@@ -25,7 +25,7 @@ const SingleProject = () => {
             />
           </a>
 
-          <BtnGitHub link={project.gitHubLink} appLink={project.link}/>
+          <BtnGitHub link={project.gitHubLink} appLink={project.link} />
         </div>
       </div>
     </main>
