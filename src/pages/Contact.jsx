@@ -12,11 +12,6 @@ const Contact = () => {
 
         <ul className="content-list">
           <li className="content-list__item">
-            <h2 className="title-2">Location</h2>
-            <p>Tbilisi, Georgia</p>
-          </li>
-
-          <li className="content-list__item">
             <div style={{ display: "flex" }}>
               <div style={{ margin: "20px" }}>
                 <h2 className="title-2">

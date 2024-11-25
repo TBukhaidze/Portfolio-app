@@ -376,10 +376,11 @@ body {
 .project-details__desc {
   margin-bottom: 30px;
 
-  font-weight: 700;
+  font-weight: 200;
   font-size: 24px;
   line-height: 1.3;
 }
+
 
 /* Content list */
 
