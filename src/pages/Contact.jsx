@@ -15,12 +15,14 @@ const Contact = () => {
             <div style={{ display: "flex" }}>
               <div style={{ margin: "20px" }}>
                 <h2 className="title-2">
-                  <img
-                    src={telegram}
-                    alt="TelegramIcon"
-                    style={{ marginRight: "10px" }}
-                  />
-                  Telegram
+                  <a href="https://t.me/temobu" target="_blanc">
+                    <img
+                      src={telegram}
+                      alt="TelegramIcon"
+                      style={{ marginRight: "10px" }}
+                    />
+                    Telegram
+                  </a>
                 </h2>
                 <img
                   src={telegramQR}
