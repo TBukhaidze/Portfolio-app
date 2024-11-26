@@ -30,7 +30,7 @@ const Home = () => {
                 </li>
                 <li className="social__item">
                   <img src={css} alt="Link" />
-                  <p>CSS,SCSS</p>
+                  <p>CSS/SCSS</p>
                 </li>
                 <li className="social__item">
                   <img src={bootstrap} alt="Link" />

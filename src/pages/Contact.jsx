@@ -15,7 +15,11 @@ const Contact = () => {
             <div style={{ display: "flex" }}>
               <div style={{ margin: "20px" }}>
                 <h2 className="title-2">
-                  <a href="https://t.me/temobu" target="_blanc">
+                  <a
+                    href="https://t.me/temobu"
+                    target="_blanc"
+                    style={{ color: "inherit" }}
+                  >
                     <img
                       src={telegram}
                       alt="TelegramIcon"
