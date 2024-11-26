@@ -381,7 +381,6 @@ body {
   line-height: 1.3;
 }
 
-
 /* Content list */
 
 .content-list {
@@ -426,6 +425,7 @@ body {
 .social {
   display: flex;
   column-gap: 30px;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -515,9 +515,6 @@ body {
 
   .social {
     column-gap: 20px;
-  }
-
-  .social__item {
-    width: 28px;
+    justify-content: center;
   }
 }
