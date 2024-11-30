@@ -12,6 +12,8 @@ import react from "../img/icons/react.svg";
 import redux from "../img/icons/redux.svg";
 import node from "../img/icons/node.svg";
 import mysql from "../img/icons/mysql.svg";
+import next from "../img/icons/next.svg";
+import git from "../img/icons/git.svg";
 
 const Home = () => {
   return (
@@ -57,6 +59,19 @@ const Home = () => {
                 <li className="social__item">
                   <img src={redux} alt="Link" />
                   <p>Redux-toolkit</p>
+                </li>
+              </ul>
+              <ul
+                className="social"
+                style={{ justifyContent: "center", marginTop: "20px" }}
+              >
+                <li className="social__item">
+                  <img src={next} alt="Link" />
+                  <p>Next.js</p>
+                </li>
+                <li className="social__item">
+                  <img src={git} alt="Link" />
+                  <p>Git/GitHub</p>
                 </li>
               </ul>
             </li>

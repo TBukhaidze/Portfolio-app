@@ -49,7 +49,7 @@ const projects = [
 
   {
     title: "E-Store",
-    skills: "React, Redux-Toolkit, Axios, fakeapi",
+    skills: "React, Redux-Toolkit, RTK Query, Axios, fakeapi",
     img: project4,
     imgBig: project4bg,
     gitHubLink: "https://github.com/TBukhaidze/e-store",
