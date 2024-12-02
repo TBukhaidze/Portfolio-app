@@ -6,7 +6,6 @@ import html from "../img/icons/html.svg";
 import css from "../img/icons/css.svg";
 import bootstrap from "../img/icons/bootstrap.svg";
 import npm from "../img/icons/npm.svg";
-import webpack from "../img/icons/webpack.svg";
 import js from "../img/icons/js.svg";
 import react from "../img/icons/react.svg";
 import redux from "../img/icons/redux.svg";
@@ -34,7 +33,7 @@ const Home = () => {
                   <img src={css} alt="Link" />
                   <p>CSS/SCSS</p>
                 </li>
-                <li className="social__item">
+                <li className="social__item" style={{ marginRight: "5px" }}>
                   <img src={bootstrap} alt="Link" />
                   <p>Bootstrap</p>
                 </li>
@@ -44,11 +43,11 @@ const Home = () => {
                 </li>
               </ul>
               <ul className="social">
-                <li className="social__item">
-                  <img src={webpack} alt="Link" />
-                  <p>Webpack</p>
+                <li className="social__item" style={{ marginRight: "5px" }}>
+                  <img src={git} alt="Link" />
+                  <p>Git</p>
                 </li>
-                <li className="social__item">
+                <li className="social__item" style={{ marginRight: "5px" }}>
                   <img src={js} alt="Link" />
                   <p>JS</p>
                 </li>
@@ -68,10 +67,6 @@ const Home = () => {
                 <li className="social__item">
                   <img src={next} alt="Link" />
                   <p>Next.js</p>
-                </li>
-                <li className="social__item">
-                  <img src={git} alt="Link" />
-                  <p>Git/GitHub</p>
                 </li>
               </ul>
             </li>
