@@ -42,7 +42,7 @@ const projects = [
     img: project3,
     imgBig: project3bg,
     gitHubLink: "https://github.com/TBukhaidze/marvel-app",
-    link: "https://tbukhaidze.github.io/marvel-app/",
+    link: "https://maarveel-aapp.netlify.app/",
     description:
       "This is a multi-page site with many features; on this site, you can find Marvel characters and Marvel comics.",
   },
