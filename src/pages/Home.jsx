@@ -10,7 +10,7 @@ import js from "../img/icons/js.svg";
 import react from "../img/icons/react.svg";
 import redux from "../img/icons/redux.svg";
 import node from "../img/icons/node.svg";
-import mysql from "../img/icons/mysql.svg";
+import mongoDB from "../img/icons/mongoDB.svg";
 import next from "../img/icons/next.svg";
 import git from "../img/icons/git.svg";
 
@@ -78,8 +78,8 @@ const Home = () => {
                   <p>NodeJS</p>
                 </li>
                 <li className="social__item">
-                  <img src={mysql} alt="Link" />
-                  <p>MySQL</p>
+                  <img src={mongoDB} alt="Link" />
+                  <p>MongoDB</p>
                 </li>
               </ul>
             </li>
