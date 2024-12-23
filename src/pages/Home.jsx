@@ -70,7 +70,7 @@ const Home = () => {
                 </li>
               </ul>
             </li>
-            <li className="content-list__item">
+            {/* <li className="content-list__item">
               <h2 className="title-2">Backend</h2>
               <ul className="social">
                 <li className="social__item">
@@ -82,7 +82,7 @@ const Home = () => {
                   <p>MongoDB</p>
                 </li>
               </ul>
-            </li>
+            </li> */}
           </ul>
         </div>
       </main>
