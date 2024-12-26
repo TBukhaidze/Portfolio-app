@@ -9,8 +9,6 @@ import npm from "../img/icons/npm.svg";
 import js from "../img/icons/js.svg";
 import react from "../img/icons/react.svg";
 import redux from "../img/icons/redux.svg";
-import node from "../img/icons/node.svg";
-import mongoDB from "../img/icons/mongoDB.svg";
 import next from "../img/icons/next.svg";
 import git from "../img/icons/git.svg";
 
