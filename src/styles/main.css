@@ -518,3 +518,10 @@ body {
     justify-content: center;
   }
 }
+
+@media (max-width: 542px) {
+  .nav-row ul {
+    width: 100%;
+    justify-content:center;
+  }
+}
