@@ -24,7 +24,7 @@ const SingleProject = () => {
 
           <div className="project-details__desc">
             <span style={{ color: "gray" }}>{project.description}</span>
-            <p style={{ marginTop: "25px" }}>{project.skills}</p>
+            <p style={{ marginTop: "25px" }}>Used skills: {project.skills}</p>
           </div>
           <BtnGitHub link={project.gitHubLink} appLink={project.link} />
         </div>

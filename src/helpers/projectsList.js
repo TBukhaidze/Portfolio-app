@@ -1,6 +1,3 @@
-import project06 from "../img/projects/06.jpg";
-import project06Big from "../img/projects/06-big.jpg";
-
 import project1 from "../img/projects/project1.jpg";
 import project1bg from "../img/projects/project1bg.jpg";
 
@@ -12,6 +9,9 @@ import project3bg from "../img/projects/project3bg.jpg";
 
 import project4 from "../img/projects/project4.jpg";
 import project4bg from "../img/projects/project4bg.jpg";
+
+import project5 from "../img/projects/project5.jpg";
+import project5bg from "../img/projects/project5bg.jpg";
 
 const projects = [
   {
@@ -59,12 +59,14 @@ const projects = [
   },
 
   {
-    title: "Gaming community",
-    skills: "React, PHP, MongoDB",
-    img: project06,
-    imgBig: project06Big,
-    gitHubLink: "https://github.com/TBukhaidze",
-    link: "https://github.com/TBukhaidze",
+    title: "Portfolio App",
+    skills: "Next.js, TypeScript, React",
+    img: project5,
+    imgBig: project5bg,
+    gitHubLink: "https://github.com/TBukhaidze/next-ts-project",
+    link: "https://next-ts-project.netlify.app/",
+    description:
+      "This is a portfolio app that I created after learning next.js and TypeScript.",
   },
 ];
 
