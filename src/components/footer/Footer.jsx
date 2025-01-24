@@ -37,7 +37,7 @@ const Footer = () => {
             </li>
           </ul>
           <div className="copyright">
-            <p>© 2024 Temuri Bukhaidze</p>
+            <p>© 2025 Temuri Bukhaidze</p>
           </div>
         </div>
       </div>

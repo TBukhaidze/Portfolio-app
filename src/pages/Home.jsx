@@ -5,7 +5,7 @@ import Header from "../components/header/Header";
 import html from "../img/icons/html.svg";
 import css from "../img/icons/css.svg";
 import bootstrap from "../img/icons/bootstrap.svg";
-import npm from "../img/icons/npm.svg";
+import tailwind from "../img/icons/tailwind.svg";
 import js from "../img/icons/js.svg";
 import react from "../img/icons/react.svg";
 import redux from "../img/icons/redux.svg";
@@ -36,8 +36,8 @@ const Home = () => {
                   <p>Bootstrap</p>
                 </li>
                 <li className="social__item">
-                  <img src={npm} alt="Link" />
-                  <p>NPM</p>
+                  <img src={tailwind} alt="Link" />
+                  <p>Tailwind</p>
                 </li>
               </ul>
               <ul className="social">
@@ -68,19 +68,6 @@ const Home = () => {
                 </li>
               </ul>
             </li>
-            {/* <li className="content-list__item">
-              <h2 className="title-2">Backend</h2>
-              <ul className="social">
-                <li className="social__item">
-                  <img src={node} alt="Link" />
-                  <p>NodeJS</p>
-                </li>
-                <li className="social__item">
-                  <img src={mongoDB} alt="Link" />
-                  <p>MongoDB</p>
-                </li>
-              </ul>
-            </li> */}
           </ul>
         </div>
       </main>
