@@ -60,7 +60,7 @@ const projects = [
 
   {
     title: "Portfolio App",
-    skills: "Next.js, TypeScript, React",
+    skills: "Next.js, TypeScript, React, Tailwind",
     img: project5,
     imgBig: project5bg,
     gitHubLink: "https://github.com/TBukhaidze/next-ts-project",

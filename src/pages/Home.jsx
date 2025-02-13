@@ -7,6 +7,7 @@ import css from "../img/icons/css.svg";
 import bootstrap from "../img/icons/bootstrap.svg";
 import tailwind from "../img/icons/tailwind.svg";
 import js from "../img/icons/js.svg";
+import ts from "../img/icons/ts.svg";
 import react from "../img/icons/react.svg";
 import redux from "../img/icons/redux.svg";
 import next from "../img/icons/next.svg";
@@ -45,17 +46,17 @@ const Home = () => {
                   <img src={git} alt="Link" />
                   <p>Git</p>
                 </li>
-                <li className="social__item" style={{ marginRight: "5px" }}>
+                <li className="social__item" style={{ marginRight: "10px" }}>
                   <img src={js} alt="Link" />
                   <p>JS</p>
+                </li>
+                <li className="social__item" style={{ marginRight: "5px" }}>
+                  <img src={ts} alt="Link" />
+                  <p>TS</p>
                 </li>
                 <li className="social__item">
                   <img src={react} alt="Link" />
                   <p>ReactJS</p>
-                </li>
-                <li className="social__item">
-                  <img src={redux} alt="Link" />
-                  <p>Redux-toolkit</p>
                 </li>
               </ul>
               <ul
@@ -63,6 +64,10 @@ const Home = () => {
                 style={{ justifyContent: "center", marginTop: "20px" }}
               >
                 <li className="social__item">
+                  <img src={redux} alt="Link" />
+                  <p>Redux-toolkit</p>
+                </li>
+                <li className="social__item" style={{ marginRight: "15px" }}>
                   <img src={next} alt="Link" />
                   <p>Next.js</p>
                 </li>
