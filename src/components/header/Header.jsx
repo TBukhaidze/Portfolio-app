@@ -1,4 +1,5 @@
 import React from "react";
+import CV from "../cv/TB-CV.pdf";
 
 const Header = () => {
   return (
@@ -13,13 +14,8 @@ const Header = () => {
         <div className="header__text">
           <p>with passion for learning and creating.</p>
         </div>
-        <a
-          href="https://github.com/TBukhaidze"
-          className="btn"
-          target="_blank"
-          rel="noreferrer"
-        >
-          View GitHub
+        <a href={CV} className="btn" target="_blank" rel="noreferrer" download>
+          Download CV
         </a>
       </div>
     </header>
