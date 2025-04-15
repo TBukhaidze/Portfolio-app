@@ -13,6 +13,9 @@ import project4bg from "../img/projects/project4bg.jpg";
 import project5 from "../img/projects/project5.jpg";
 import project5bg from "../img/projects/project5bg.jpg";
 
+import project6 from "../img/projects/project6.jpg";
+import project6bg from "../img/projects/project6bg.jpg";
+
 const projects = [
   {
     title: "Calculator App",
@@ -67,6 +70,17 @@ const projects = [
     link: "https://next-ts-project.netlify.app/",
     description:
       "This is a portfolio app that I created after learning next.js and TypeScript.",
+  },
+
+  {
+    title: "Currency Exchange",
+    skills: "Next.js, React Context, Tailwind, Axios, Swiper",
+    img: project6,
+    imgBig: project6bg,
+    gitHubLink: "https://github.com/TBukhaidze/currency-exchange-app",
+    link: "https://currex-web.netlify.app/",
+    description:
+      "A responsive web app that displays real-time exchange rates for currencies, cryptocurrencies and gasoline prices.Leverages multiple APIs to deliver up-to-date financial data in a clean interface.",
   },
 ];
 

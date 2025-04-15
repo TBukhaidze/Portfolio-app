@@ -1,8 +1,6 @@
 import React from "react";
 
-import facebook from "../../img/icons/facebook.svg";
-import linkedIn from "../../img/icons/linkedIn.svg";
-import gitHub from "../../img/icons/gitHub.svg";
+import { icons } from "../../helpers/icons";
 
 const Footer = () => {
   return (
@@ -17,7 +15,7 @@ const Footer = () => {
                 without
                 rel="noreferrer"
               >
-                <img src={facebook} alt="Link" />
+                <img src={icons.facebook} alt="Link" />
               </a>
             </li>
             <li className="social__item">
@@ -27,12 +25,17 @@ const Footer = () => {
                 without
                 rel="noreferrer"
               >
-                <img src={gitHub} alt="Link" />
+                <img src={icons.gitHub} alt="Link" />
               </a>
             </li>
             <li className="social__item">
-              <a href="https://www.linkedin.com/in/temuri-bukhaidze-83728633a/">
-                <img src={linkedIn} alt="Link" />
+              <a
+                href="https://www.linkedin.com/in/temuri-bukhaidze-83728633a/"
+                target="_blank"
+                without
+                rel="noreferrer"
+              >
+                <img src={icons.linkedIn} alt="Link" />
               </a>
             </li>
           </ul>
