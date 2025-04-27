@@ -406,6 +406,26 @@ body {
   margin-top: 0.5em;
 }
 
+.social {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.social--centered {
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mr-15 {
+  margin-right: 15px;
+}
+
 /* Footer */
 
 .footer {
@@ -522,6 +542,6 @@ body {
 @media (max-width: 542px) {
   .nav-row ul {
     width: 100%;
-    justify-content:center;
+    justify-content: center;
   }
 }
