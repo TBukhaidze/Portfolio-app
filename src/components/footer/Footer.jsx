@@ -1,51 +1,45 @@
 import React from "react";
-
 import { icons } from "../../helpers/icons";
 
-const Footer = () => {
-  return (
-    <footer className="footer">
-      <div className="container">
-        <div className="footer__wrapper">
-          <ul className="social">
-            <li className="social__item">
-              <a
-                href="https://www.facebook.com/buxa.buxa.7/"
-                target="_blank"
-                without
-                rel="noreferrer"
-              >
-                <img src={icons.facebook} alt="Link" />
+const socialLinks = [
+  {
+    href: "https://www.facebook.com/buxa.buxa.7/",
+    icon: icons.facebook,
+    alt: "Facebook",
+  },
+  {
+    href: "https://github.com/TBukhaidze",
+    icon: icons.gitHub,
+    alt: "GitHub",
+  },
+  {
+    href: "https://www.linkedin.com/in/temuri-bukhaidze-83728633a/",
+    icon: icons.linkedIn,
+    alt: "LinkedIn",
+  },
+];
+
+const year = new Date().getFullYear();
+
+const Footer = () => (
+  <footer className="footer">
+    <div className="container">
+      <div className="footer__wrapper">
+        <ul className="social">
+          {socialLinks.map(({ href, icon, alt }) => (
+            <li key={alt} className="social__item">
+              <a href={href} target="_blank" rel="noreferrer">
+                <img src={icon} alt={alt} />
               </a>
             </li>
-            <li className="social__item">
-              <a
-                href="https://github.com/TBukhaidze"
-                target="_blank"
-                without
-                rel="noreferrer"
-              >
-                <img src={icons.gitHub} alt="Link" />
-              </a>
-            </li>
-            <li className="social__item">
-              <a
-                href="https://www.linkedin.com/in/temuri-bukhaidze-83728633a/"
-                target="_blank"
-                without
-                rel="noreferrer"
-              >
-                <img src={icons.linkedIn} alt="Link" />
-              </a>
-            </li>
-          </ul>
-          <div className="copyright">
-            <p>© 2025 Temuri Bukhaidze</p>
-          </div>
+          ))}
+        </ul>
+        <div className="copyright">
+          <p>© {year} Temuri Bukhaidze</p>
         </div>
       </div>
-    </footer>
-  );
-};
+    </div>
+  </footer>
+);
 
 export default Footer;
