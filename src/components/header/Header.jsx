@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import CV from "../cv/TB-CV.pdf";
 import Typewriter from "typewriter-effect";
 
