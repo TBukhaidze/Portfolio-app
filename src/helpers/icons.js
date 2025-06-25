@@ -12,6 +12,7 @@ import mongoDB from "../img/icons/mongoDB.svg";
 import facebook from "../img/icons/facebook.svg";
 import linkedIn from "../img/icons/linkedIn.svg";
 import gitHub from "../img/icons/gitHub.svg";
+import postgresql from "../img/icons/postgresql.svg";
 
 export const icons = {
   html: html,
@@ -28,4 +29,5 @@ export const icons = {
   facebook: facebook,
   linkedIn: linkedIn,
   gitHub: gitHub,
+  postgresql: postgresql,
 };

@@ -1,6 +1,6 @@
 export const skilsList = [
   {
-    category: "Frontend",
+    category: "Skills",
     items: [
       [
         { icon: "html", label: "HTML" },
@@ -15,9 +15,10 @@ export const skilsList = [
         { icon: "react", label: "ReactJS" },
       ],
       [
-        { icon: "redux", label: "Redux-toolkit" },
-        { icon: "next", label: "Next.js", className: "mr-15" },
-        { icon: "mongoDB", label: "MongoDB", className: "mr-15" },
+        { icon: "redux", label: "RTK", className: "mr-10" },
+        { icon: "next", label: "Next.js", className: "mr-0" },
+        { icon: "mongoDB", label: "MongoDB", className: "mr-5" },
+        { icon: "postgresql", label: "PostgreSql", className: "mr-15" },
       ],
     ],
   },

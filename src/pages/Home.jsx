@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../components/header/Header";
 import { icons } from "../helpers/icons";
 import { skilsList } from "../helpers/skilsList";
