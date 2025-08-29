@@ -3,6 +3,8 @@ import telegramQR from "../img/QR/telegramQR.jpg";
 
 import whatsapp from "../img/icons/whatsapp.svg";
 import whatsappQR from "../img/QR/whatsappQR.jpg";
+import gmail from "../img/icons/gmail.svg";
+import phone from "../img/icons/phone.svg";
 
 const Contact = () => {
   return (
@@ -58,15 +60,31 @@ const Contact = () => {
           <li className="content-list__item">
             <h2 className="title-2">Email/Number</h2>
             <div>
-              <p>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  marginBottom: "10px",
+                }}
+              >
+                <img
+                  src={gmail}
+                  alt="GmailIcon"
+                  style={{ marginRight: "10px" }}
+                />
                 <a href="mailto:bukhaidze.temo@gmail.com">
                   bukhaidze.temo@gmail.com
                 </a>
-              </p>
+              </div>
 
-              <p>
+              <div style={{ display: "flex", alignItems: "center" }}>
+                <img
+                  src={phone}
+                  alt="PhoneIcon"
+                  style={{ marginRight: "10px" }}
+                />
                 <a href="tel:+995598558233">+(995) 596 211 222</a>
-              </p>
+              </div>
             </div>
           </li>
         </ul>
